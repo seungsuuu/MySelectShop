@@ -32,7 +32,6 @@ public class UserController {
     private final UserService userService;
     private final FolderService folderService;
     private final KakaoService kakaoService;
-    private final JwtUtil jwtUtil;
 
     @GetMapping("/user/login-page")
     public String loginPage() {
